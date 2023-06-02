@@ -65,7 +65,7 @@ document.querySelector('.check')
 
 
 document.querySelector('.again').addEventListener('click',function() {
-
+    hasWon = false;
     score = 20
     secretNumber = Math.floor(Math.random() * 20) + 1;
 
